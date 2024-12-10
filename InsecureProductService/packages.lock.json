@@ -101,6 +101,22 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "6.0.7"
         }
       },
+      "System.Drawing.Common": {
+        "type": "Direct",
+        "requested": "[4.7.2, )",
+        "resolved": "4.7.2",
+        "contentHash": "I2y4KBK3VCvU/WqE2xv7NjQ67maXHttkFSHYKgU2evrG9Yqh0oFjfORXt5hZTk+BVjdyFo2h0/YQZsca33BGmg==",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.4",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        }
+      },
+      "System.Text.Encodings.Web": {
+        "type": "Direct",
+        "requested": "[4.5.1, )",
+        "resolved": "4.5.1",
+        "contentHash": "8lfETN/1lu0QD+XQaDCxn6InX3KYJHCFO6Iqrm92zn9eOEeonTuyisKxW0nLZfse598LibhEItiRdPzVn8Beyg=="
+      },
       "Humanizer.Core": {
         "type": "Transitive",
         "resolved": "2.8.26",
@@ -400,8 +416,8 @@
       },
       "Microsoft.NETCore.Platforms": {
         "type": "Transitive",
-        "resolved": "3.1.0",
-        "contentHash": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w=="
+        "resolved": "3.1.4",
+        "contentHash": "9/y05/CuxE+j184Nr4KihhB9KcUkvGojmD4JV4Vt/mHhVZR+eOCD5WCM+CXye9K0OFMsaPXbN+IcaIpjgBGZmg=="
       },
       "Microsoft.NETCore.Targets": {
         "type": "Transitive",
@@ -906,15 +922,6 @@
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-        }
-      },
-      "System.Drawing.Common": {
-        "type": "Transitive",
-        "resolved": "4.7.0",
-        "contentHash": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.Win32.SystemEvents": "4.7.0"
         }
       },
       "System.Globalization": {
@@ -1502,11 +1509,6 @@
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
         }
-      },
-      "System.Text.Encodings.Web": {
-        "type": "Transitive",
-        "resolved": "4.5.0",
-        "contentHash": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g=="
       },
       "System.Text.RegularExpressions": {
         "type": "Transitive",
